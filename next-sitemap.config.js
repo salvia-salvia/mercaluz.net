@@ -2,5 +2,11 @@
 module.exports = {
   siteUrl: 'https://mercaluz.net',
   generateRobotsTxt: true,
-  // باقي الإعدادات
+  sitemapSize: 7000,
+  changefreq: 'weekly',
+  priority: 0.7,
+  i18n: {
+    locales: ['fr', 'es', 'en'],
+    defaultLocale: 'fr',
+  },
 };
