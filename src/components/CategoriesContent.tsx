@@ -6,7 +6,6 @@ import { MultiLangText } from "@/types";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function CategoriesContent() {
   const t = useTranslations("category");
@@ -15,14 +14,13 @@ export default function CategoriesContent() {
 
   const locale = localeRaw as keyof MultiLangText;
 
-  const [selected, setSelected] = useState(0);
   return (
     <div className="w-full min-h-screen font-open-sans flex flex-col items-center">
-      <div className="w-full max-w-7xl px-8 pb-20  mx-auto">
+      <div className="w-full max-w-7xl  pb-20 pl-3 mx-auto">
         <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-2">
           {t("title")}
         </h2>
-        <p className="text-gray-800 md:text-lg leading-relaxed ">
+        <p className="text-gray-800 text-sm md:text-lg leading-relaxed ">
           {t("subTitle")}
         </p>
       </div>
@@ -40,7 +38,12 @@ export default function CategoriesContent() {
                 href={`/${localeRaw}/products/${cat.id}`}
                 className=" lg:max-w-[400px] lg:h-[500px] flex flex-col items-center p-8 gap-6 w-fit text-center hover:bg-zinc-100 duration-200 cursor-pointer"
               >
-                <Image src={cat.image} width={300} height={300} alt="fish" />
+                <Image
+                  src={cat.image}
+                  width={300}
+                  height={300}
+                  alt={cat.name[locale] || "fish"}
+                />
                 <h3 className=" text-xl lg:text-3xl  font-semibold tracking-widest">
                   {cat.name[locale]}
                 </h3>

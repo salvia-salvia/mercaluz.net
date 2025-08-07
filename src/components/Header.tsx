@@ -21,6 +21,7 @@ export default function Header({
   const t = useTranslations();
   const pathname = usePathname();
   const locale = useLocale();
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
@@ -43,7 +44,7 @@ export default function Header({
       <div
         className={`relative flex justify-between ${
           !showMobileNavbar && " px-8"
-        } md:justify-around items-center   mx-auto`}
+        } md:justify-around items-center mx-auto`}
       >
         {/* mobile navbar */}
         <MobileNavbar
@@ -66,14 +67,12 @@ export default function Header({
                 key={i}
                 href={fullPath}
                 className={`relative capitalize group ${
-                  isActive ? "font-extrabold text-xl" : " "
+                  isActive ? "font-extrabold text-xl text-[#34699a]" : " "
                 }`}
               >
                 {t(route.name)}
                 <span
-                  className={`absolute left-1/2 bottom-0 w-0 h-[3px] ${
-                    scrolled ? "bg-black" : "bg-white"
-                  } transition-all duration-300 group-hover:left-0 group-hover:w-full`}
+                  className={`absolute left-1/2 bottom-0 w-0 h-[3px] bg-[#34699a] transition-all duration-300 group-hover:left-0 group-hover:w-full`}
                 ></span>
               </Link>
             );

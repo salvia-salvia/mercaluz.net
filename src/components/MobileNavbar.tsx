@@ -42,13 +42,11 @@ export default function MobileNavbar({
             <Link
               key={i}
               href={fullPath}
-              className={`relative group ${isActive ? "font-bold" : " "}`}
+              className={`relative group ${isActive ? "font-bold text-[#34699a]" : " "}`}
             >
               {t(route.name)}
               <span
-                className={`absolute left-1/2 bottom-0 w-0 h-[3px] ${
-                  scrolled ? "bg-black" : "bg-white"
-                } transition-all duration-300 group-hover:left-0 group-hover:w-full`}
+                className={`absolute left-1/2 bottom-0 w-0 h-[4px] bg-[#34699a] transition-all duration-300 group-hover:left-0 group-hover:w-full`}
               ></span>
             </Link>
           );

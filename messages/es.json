@@ -98,5 +98,26 @@
     "shelf_life": "vida útil",
     "month": "mes",
     "submit": "Enviar"
+  },
+  "about_us_seo_content": {
+    "title": "Sobre Mercaluz | Empresa Marroquí de Exportación de Pescado",
+    "description": "Mercaluz se especializa en la exportación de mariscos premium desde Marruecos. Descubra nuestra misión, valores y compromiso con la pesca sostenible.",
+    "keywords": "exportación de pescado Marruecos, mariscos marroquíes, exportador de pescado, pesca sostenible, empresa de mariscos"
+  },
+  "products_seo_content": {
+    "title": "Nuestros Productos | Exportador de Mariscos Marroquí - Mercaluz",
+    "description": "Descubra nuestra gama de pescados y mariscos premium exportados desde Marruecos. Mercaluz ofrece calidad, sostenibilidad y frescura.",
+    "keywords": "productos de mariscos Marruecos, exportación de pescado, pescado fresco Marruecos, empresa de mariscos"
+  },
+  "category_seo": {
+    "title_template": "{name} | Mercaluz - Exportador de mariscos marroquí",
+    "description_template": "Explora {name} de alta calidad exportados desde Marruecos. Mercaluz ofrece mariscos sostenibles de primera calidad.",
+    "keywords_template": "{name}, mariscos marroquíes, exportar pescado Marruecos, pesca sostenible",
+    "default_name": "Categoría de mariscos"
+  },
+  "fish_seo_content": {
+    "title_template": "{name} | Exportado desde Marruecos por Mercaluz",
+    "description_template": "{name} ({scientific}) es uno de nuestros productos del mar de alta calidad exportados de forma sostenible desde Marruecos.",
+    "keywords_template": "{name}, exportación de pescado marroquí, mariscos sostenibles, {name} Marruecos"
   }
 }

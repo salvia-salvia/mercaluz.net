@@ -1,14 +1,61 @@
 import CategoryPageContent from "@/components/CategoryPageContent";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { Categories } from "@/types";
+import { fishCategories } from "@/constants";
+import { Categories, MultiLangText } from "@/types";
+import { Metadata } from "next";
+import { getLocale, getTranslations } from "next-intl/server";
+ 
 
-import React from "react";
 type Props = {
   params: Promise<{ category: Categories }>;
 };
+export async function generateMetadata({
+  params,
+}: {
+  params: { category: Categories };
+}): Promise<Metadata> {
+  const { category } = params;
+  const localeRaw = await getLocale();
+  const locale = localeRaw as keyof MultiLangText;
+
+  const t = await getTranslations("category_seo");
+  const categoryData = fishCategories.find((c) => c.id === category);
+  const name = categoryData?.name[locale] || t("default_name");
+  const image = categoryData?.image || "https://mercaluz.net/img/mercaluz.png";
+  const url = `https://mercaluz.net/${locale}/category/${category}`;
+
+  const title = t("title_template", { name });
+  const description = t("description_template", { name: name.toLowerCase() });
+  const keywords = t("keywords_template", { name });
+
+  return {
+    title,
+    description,
+    keywords,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "website",
+      images: [image],
+      locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [image],
+    },
+  };
+}
+
 export default async function page({ params }: Props) {
   const { category } = await params;
+
   return (
     <div className="w-full">
       <Header isProductPage={true} />

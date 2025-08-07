@@ -7,10 +7,10 @@ import "animate.css";
 import ContactContent from "@/components/ContactContent";
 import Footer from "@/components/Footer";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
+
 export default function Home() {
   const t = useTranslations("hero");
-  const tContact = useTranslations("contact_us");
+
   return (
     <>
       <div className="relative  font-open-sans  flex justify-center w-full min-h-screen overflow-hidden">
@@ -32,7 +32,7 @@ export default function Home() {
             {t("part1")}
           </span>
           <br />
-          <span className="block mb-6 md:mb-12 text-xl md:text-3xl lg:text-5xl 2xl:text-6xl  tracking-widest leading-20 font-bold">
+          <span className="block mb-6 md:mb-12 text-xl md:text-3xl lg:text-5xl 2xl:text-6xl  tracking-widest md:leading-20 font-bold">
             {t("part2")}
           </span>
           <p className="text-sm  font-light tracking-wider lg:text-lg text-center lg:text-start">
@@ -71,65 +71,7 @@ export default function Home() {
       <section className="w-full my-[100px] min-h-screen md:px-12  bg-[url('/img/reasonBg.png')] bg-cover bg-center ">
         <ReasonContent />
       </section>
-      <section
-        id="contact"
-        className="max-w-[1600px] mx-auto flex flex-col-reverse xl:flex-row justify-around  items-center mt-[100px] min-h-screen md:px-20 "
-      >
-        <div className=" flex flex-col gap-12 font-open-sans flex-1 pb-20 md:pb-0 ">
-          <div className="flex items-center gap-8">
-            <Image
-              src={"/icons/location-icon.svg"}
-              width={60}
-              height={60}
-              alt="location"
-              className="w-[40px] md:w-[60px]"
-            />
-            <div className="">
-              <h2 className="uppercase text-[#8f8f8f] py-2 font-light">
-                {tContact("info.address")}:
-              </h2>
-              <p className="md:text-xl">Safi, Morocco</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-8">
-            <Image
-              src={"/icons/phone-call.svg"}
-              width={60}
-              height={60}
-              alt="phone"
-              className="w-[40px] md:w-[60px]"
-            />
-            <div>
-              <h2 className="uppercase text-[#8f8f8f] py-2 font-light">
-                {tContact("info.phone")}:
-              </h2>
-              <p className="md:text-xl">+212 465 43 55 23</p>
-            </div>
-          </div>
-          <div>
-            <h2 className="uppercase text-[#8f8f8f] py-2 font-light">
-              {tContact("info.contactMedia")}:
-            </h2>
-            <div className="flex items-center gap-4 p-2">
-              <Link href={`#`}>
-                <Image
-                  src={"/icons/linkedin.svg"}
-                  width={25}
-                  height={25}
-                  alt="linkedin"
-                />
-              </Link>
-              <Link href={`#`}>
-                <Image
-                  src={"/icons/facebook.svg"}
-                  width={25}
-                  height={25}
-                  alt="facebook"
-                />
-              </Link>
-            </div>
-          </div>
-        </div>
+      <section id="contact">
         <ContactContent />
       </section>
       <Footer />

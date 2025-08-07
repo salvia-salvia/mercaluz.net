@@ -34,20 +34,13 @@ export default function ProductsContent() {
                   <h3 className=" text-xl lg:text-3xl  font-semibold tracking-widest">
                     {cat.name[locale]}
                   </h3>
-                  <Link
-                    title={`${tLinkTitle("viewProductscategory")} ${cat.name}`}
-                    href={`/${localeRaw}/products/${cat.id}`}
-                    aria-label={`${tLinkTitle("viewProductscategory")} ${
-                      cat.name[locale]
-                    }`}
-                  >
-                    <button className="relative text-sm lg:text-base inline-block cursor-pointer px-6 py-2 border border-[#34699a] text-[#34699a] font-medium overflow-hidden group">
-                      <span className="absolute left-0 top-1/2 w-full h-0 bg-[#34699a] z-0 transition-all duration-300 ease-out group-hover:h-full transform -translate-y-1/2"></span>
-                      <span className="relative uppercase z-10 group-hover:text-white transition-colors duration-300">
-                        {t("details")}
-                      </span>
-                    </button>
-                  </Link>
+
+                  <button className="relative text-sm lg:text-base inline-block cursor-pointer px-6 py-2 border border-[#34699a] text-[#34699a] font-medium overflow-hidden group">
+                    <span className="absolute left-0 top-1/2 w-full h-0 bg-[#34699a] z-0 transition-all duration-300 ease-out group-hover:h-full transform -translate-y-1/2"></span>
+                    <span className="relative uppercase z-10 group-hover:text-white transition-colors duration-300">
+                      {t("details")}
+                    </span>
+                  </button>
                 </Link>
               </li>
             );

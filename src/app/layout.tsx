@@ -11,7 +11,7 @@ const openSans = Open_Sans({
 });
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo.svg",
+    icon: "/rounded_logo.svg",
   },
 };
 export default function RootLayout({

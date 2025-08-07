@@ -98,5 +98,26 @@
     "shelf_life": "durée de conservation",
     "month": "mois",
     "submit": "Soumettre"
+  },
+  "about_us_seo_content": {
+    "title": "À Propos de Mercaluz | Exportateur de Poissons du Maroc",
+    "description": "Mercaluz est spécialisée dans l’exportation de fruits de mer de qualité depuis le Maroc. Découvrez notre mission, nos valeurs et notre engagement pour une pêche durable.",
+    "keywords": "export poisson Maroc, fruits de mer marocains, exportateur poisson, pêche durable, entreprise fruits de mer"
+  },
+  "products_seo_content": {
+    "title": "Nos Produits | Exportateur de Fruits de Mer Marocain - Mercaluz",
+    "description": "Découvrez notre sélection de poissons et fruits de mer de qualité exportés du Maroc. Mercaluz garantit qualité, fraîcheur et durabilité.",
+    "keywords": "produits de la mer Maroc, export poisson Maroc, poisson frais Maroc, entreprise fruits de mer"
+  },
+  "category_seo": {
+    "title_template": "{name} | Mercaluz - Exportateur de produits de la mer marocains",
+    "description_template": "Découvrez des {name} de haute qualité exportés du Maroc. Mercaluz propose des fruits de mer durables de premier choix.",
+    "keywords_template": "{name}, fruits de mer marocains, exportation de poisson Maroc, pêche durable",
+    "default_name": "Catégorie de fruits de mer"
+  },
+  "fish_seo_content": {
+    "title_template": "{name} | Exporté du Maroc par Mercaluz",
+    "description_template": "{name} ({scientific}) est l’un de nos produits de la mer de haute qualité exportés durablement depuis le Maroc.",
+    "keywords_template": "{name}, exportation de poisson marocain, fruits de mer durables, {name} Maroc"
   }
 }

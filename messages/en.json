@@ -98,5 +98,26 @@
     "shelf_life": "shelf life",
     "month": "month",
     "submit": "Submit"
+  },
+  "about_us_seo_content": {
+    "title": "About Mercaluz | Moroccan Fish Export Company",
+    "description": "Mercaluz specializes in exporting premium seafood from Morocco. Discover our mission, values, and commitment to sustainable fish trade.",
+    "keywords": "fish export Morocco, Moroccan seafood, Moroccan fish exporter, sustainable fishing, export seafood company"
+  },
+  "products_seo_content": {
+    "title": "Our Products | Moroccan Seafood Exporter - Mercaluz",
+    "description": "Explore our range of premium fish and seafood products exported from Morocco. Mercaluz delivers quality, sustainability, and freshness.",
+    "keywords": "Moroccan seafood products, fish export Morocco, fresh fish exporter, seafood company Morocco"
+  },
+  "category_seo": {
+    "title_template": "{name} | Mercaluz - Moroccan Seafood Exporter",
+    "description_template": "Explore high-quality {name} exported from Morocco. Mercaluz offers premium sustainable seafood.",
+    "keywords_template": "{name}, Moroccan seafood, export fish Morocco, sustainable fishing",
+    "default_name": "Seafood Category"
+  },
+  "fish_seo_content": {
+    "title_template": "{name} | Exported from Morocco by Mercaluz",
+    "description_template": "{name} ({scientific}) is one of our top-quality seafood products sustainably exported from Morocco.",
+    "keywords_template": "{name}, Moroccan fish export, sustainable seafood, {name} Morocco"
   }
 }

@@ -33,6 +33,7 @@ export default function AboutPageContent() {
             </p>
           </div>
         </section>
+
         <section className="flex flex-col  bg-[url('/img/bgAbout2.png')] bg-cover bg-center  justify-center w-full min-h-screen mx-auto">
           <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-16">
             {t("whyWeAreBetter.title")}
@@ -57,7 +58,7 @@ export default function AboutPageContent() {
           </main>
         </section>
 
-        <section className="flex flex-col justify-center w-full min-h-screen mx-auto mt-[200px]">
+        <section className="flex flex-col justify-center w-full min-h-screen mx-auto mt-[120px]">
           <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
             {t("services.title")}
           </h2>
