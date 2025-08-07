@@ -92,11 +92,5 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  return (
-    <html>
-      <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-      </body>
-    </html>
-  );
+  return <NextIntlClientProvider>{children}</NextIntlClientProvider>;
 }
