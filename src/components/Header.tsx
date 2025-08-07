@@ -48,7 +48,6 @@ export default function Header({
       >
         {/* mobile navbar */}
         <MobileNavbar
-          scrolled={scrolled}
           showMobileNavbar={showMobileNavbar}
           setShowMobileNavbar={setShowMobileNavbar}
         />

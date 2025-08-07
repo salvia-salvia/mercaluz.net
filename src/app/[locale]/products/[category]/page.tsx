@@ -5,17 +5,12 @@ import { fishCategories } from "@/constants";
 import { Categories, MultiLangText } from "@/types";
 import { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
- 
 
 type Props = {
   params: Promise<{ category: Categories }>;
 };
-export async function generateMetadata({
-  params,
-}: {
-  params: { category: Categories };
-}): Promise<Metadata> {
-  const { category } = params;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { category } = await params;
   const localeRaw = await getLocale();
   const locale = localeRaw as keyof MultiLangText;
 

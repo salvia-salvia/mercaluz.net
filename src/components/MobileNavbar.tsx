@@ -9,10 +9,10 @@ import { usePathname } from "next/navigation";
 export default function MobileNavbar({
   showMobileNavbar,
   setShowMobileNavbar,
-  scrolled,
+  
 }: {
   showMobileNavbar: boolean;
-  scrolled: boolean;
+ 
   setShowMobileNavbar: (b: boolean) => void;
 }) {
   const t = useTranslations();
