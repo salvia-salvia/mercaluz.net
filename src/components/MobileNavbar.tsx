@@ -9,10 +9,9 @@ import { usePathname } from "next/navigation";
 export default function MobileNavbar({
   showMobileNavbar,
   setShowMobileNavbar,
-  
 }: {
   showMobileNavbar: boolean;
- 
+
   setShowMobileNavbar: (b: boolean) => void;
 }) {
   const t = useTranslations();
@@ -24,8 +23,7 @@ export default function MobileNavbar({
         showMobileNavbar ? "block" : "hidden"
       } md:hidden bg-white text-black w-full h-screen`}
     >
-      <div className="flex justify-between items-center w-full p-6 absolute">
-        <LanguageSelector />
+      <div className="flex mr-2 justify-end w-full p-6 absolute">
         <X
           onClick={() => setShowMobileNavbar(false)}
           className="w-[30px] h-[30px] cursor-pointer"
@@ -42,7 +40,9 @@ export default function MobileNavbar({
             <Link
               key={i}
               href={fullPath}
-              className={`relative group ${isActive ? "font-bold text-[#34699a]" : " "}`}
+              className={`relative group ${
+                isActive ? "font-bold text-[#34699a]" : " "
+              }`}
             >
               {t(route.name)}
               <span

@@ -11,7 +11,7 @@ export async function generateMetadata() {
   const title = t("title");
   const description = t("description");
   const keywords = t("keywords");
-  const image = "https://mercaluz.net/img/mercaluz.png";  
+  const image = "https://mercaluz.net/rounded_logo.svg";  
   const url = `https://mercaluz.net/${locale}/products`;
 
   return {

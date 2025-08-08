@@ -1,0 +1,123 @@
+{
+  "AllRight": "Alle Rechte vorbehalten",
+  "morocco": "Marokko",
+  "linkTitle": {
+    "viewProductscategory": "Produkte in dieser Kategorie anzeigen",
+    "viewProduct": "Produkt anzeigen"
+  },
+  "navbar": {
+    "main": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "part1": "Innovation vorantreiben in der nachhaltigen Fischverarbeitung",
+    "part2": "Mit fortschrittlicher Gefriertechnologie für Premium-Qualität & Frische",
+    "part3": "Wir kombinieren modernste Gefrier- und Fischverarbeitungslösungen mit umweltfreundlichen Praktiken, um Frische, Geschmack und Nachhaltigkeit zu gewährleisten – und erfüllen dabei die höchsten Industriestandards."
+  },
+  "smallAbout": {
+    "title": "Über Mercaluz",
+    "part1": "Mercaluz ist ein vertrauenswürdiges marokkanisches Unternehmen, das sich auf den Export von hochwertigen Meeresfrüchten in internationale Märkte spezialisiert hat.",
+    "part2": "Mit Sitz in Safi – einem der bekanntesten Fischereihäfen Nordafrikas – bezieht Mercaluz eine breite Palette an frischem und gefrorenem Fisch aus allen wichtigen marokkanischen Häfen, was Vielfalt, Qualität und ganzjährige Verfügbarkeit garantiert. Unsere Produkte entsprechen globalen Lebensmittel- und Nachhaltigkeitsstandards.",
+    "part3": "Mit einem engagierten Team und strengen Qualitätskontrollprozessen von der Beschaffung bis zum Versand sichert Mercaluz Konsistenz, Transparenz und langfristigen Wert für Partner weltweit – einschließlich Europa, Asien, Afrika, Amerika und dem Nahen Osten.",
+    "LearnMore": "Mehr erfahren"
+  },
+  "category": {
+    "title": "Produkte",
+    "details": "Details",
+    "subTitle": "Wir bieten eine breite Palette an hochwertigen Produkten",
+    "btn1": "Kategorie",
+    "FishTypes": "Fischarten",
+    "SeeAll": "Alle anzeigen"
+  },
+  "reasonsWhy": {
+    "title": "Die Gründe, warum Sie uns wählen sollten",
+    "reasons": {
+      "01": "Qualität hat für uns oberste Priorität. Von der täglichen Fischauswahl bis zur endgültigen Lieferung wird jede Phase sorgfältig kontrolliert, um Frische, Geschmack und höchste Standards zu bewahren.",
+      "02": "Unser Fisch stammt aus vertrauenswürdigen marokkanischen Fischereien, die nachhaltige Praktiken anwenden, die das Meeresleben und die Umwelt respektieren.",
+      "03": "Wir bieten faire Preise, ohne Kompromisse bei der Qualität einzugehen – so sind Premium-Meeresfrüchte zugänglich und verlässlich.",
+      "04": "Pünktlichkeit ist unser Versprechen. Wir gewährleisten eine schnelle, sichere und pünktliche Lieferung für jede Bestellung, überall auf der Welt.",
+      "05": "Die Zufriedenheit unserer Kunden ist unser Antrieb. Wir bieten persönlichen Service, schnelle Antworten und einen flexiblen Ansatz, der auf Ihre Bedürfnisse zugeschnitten ist."
+    }
+  },
+  "contact_us": {
+    "title": "Kontaktieren Sie uns",
+    "form": {
+      "placeholder_name": "Name",
+      "placeholder_email": "Ihre E-Mail-Adresse",
+      "placeholder_phone": "Telefonnummer",
+      "placeholder_msg": "Nachricht",
+      "btn_text": "Nachricht senden"
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Telefon",
+      "contactMedia": "Kontakt in sozialen Medien"
+    }
+  },
+  "aboutPage": {
+    "introduction": {
+      "part1": "Wir sind ein Team von Fachleuten, das sich auf den direkten Export von Fisch aus Marokko spezialisiert hat.",
+      "part2": "Mercaluz ist ein Unternehmen, das sich auf den Export von Fisch- und Meeresfrüchteprodukten aus Marokko in verschiedene globale Märkte spezialisiert hat. Mit jahrelanger Erfahrung in der Exportbranche verpflichtet sich Mercaluz den höchsten Qualitätsstandards und der vollständigen Einhaltung internationaler Vorschriften."
+    },
+    "whyWeAreBetter": {
+      "title": "Warum sind wir besser als andere?",
+      "text1": "Es ist oft zu beobachten, dass lokale marokkanische Lieferanten bei ihren Vereinbarungen und Bedingungen etwas nachlässig sind. Wir bei Mercaluz wissen, wie schwer es ist, einen Ruf aufzubauen, und wir schützen Sie und Ihre Endkunden vor möglichen 'Überraschungen'.",
+      "subTitle": "Qualität der Waren",
+      "text2": {
+        "part1": "Anders als viele lokale Unternehmen sind wir Verkäufer, keine Vermittler, und tragen daher echte Risiken (!) und nicht nur konstruktive Verpflichtungen für die Qualität der von uns gelieferten Waren.",
+        "part2": "Wenn ein bestimmtes Produkt nicht auf Lager ist, stellen wir Ihre Bestellung aus mehreren Herstellern zusammen, unter Einhaltung all Ihrer Wünsche und Anforderungen.",
+        "part3": "Unsere qualifizierten Experten überwachen die Warenannahme von der ersten Ankunft zur Produktion/Verpackung bis zur abschließenden Überprüfung der Übereinstimmung von Spezifikationen, Qualität, Menge und Verpackung – bevor sie in das Transportfahrzeug geladen werden."
+      }
+    },
+    "services": {
+      "title": "Dienstleistungen",
+      "part1": "Kunden von Mercaluz erhalten stets als Erste die neuesten Marktangebote, was ihnen Zeit spart und ihnen einen entscheidenden Wettbewerbsvorteil in einem volatilen Markt verschafft.",
+      "part2": "Unsere Exportabteilung erstellt schnell und korrekt alle Versanddokumente, unter Berücksichtigung aller Feinheiten und Anforderungen Ihrer nationalen Regulierungsbehörden.",
+      "part3": "Wir senden unseren potenziellen Kunden kostenlose Produktproben und organisieren einen Besuch in Marokko, einschließlich Hotelreservierungen, Flughafentransfers, persönlichem Transport und vielem mehr."
+    },
+    "price": {
+      "title": "Preis",
+      "part1": "Wir erzielen effektive Lösungen durch die Erhöhung des Umsatzes, die Reduzierung der Margen und die Bereitstellung günstigerer Tarife für Logistikdienstleistungen. Als Ergebnis erhalten Sie Preise, die in jeder Phase optimiert sind.",
+      "part2": "Unabhängig von der Größe Ihrer Bestellung erstellen wir ein exklusives Angebot für Sie, das den Angeboten unserer Wettbewerber für Großimporteure entspricht. Mercaluz bietet immer günstige Preise, selbst für Mindestmengen.",
+      "part3": "Wir bieten auch ein System mit zusätzlichen Rabatten für unsere treuen Kunden."
+    }
+  },
+  "fish_product": {
+    "description": "Beschreibung",
+    "specification": {
+      "title": "Spezifikation",
+      "part1": "Block Quick Freezing (BQF) - Blockgefrieren",
+      "part2": "Individual Quick Freezing (IQF) - Einzelstückgefrieren",
+      "part3": "Individually wrapped packaging (IWP) - Einzelverpackung"
+    },
+    "scientific_name": "Wissenschaftlicher Name",
+    "fishing_zone": "Fanggebiet",
+    "fao": "FAO",
+    "shelf_life": "Haltbarkeit",
+    "month": "Monat",
+    "submit": "Absenden"
+  },
+  "about_us_seo_content": {
+    "title": "Über Mercaluz | Marokkanisches Fisch-Exportunternehmen",
+    "description": "Mercaluz ist auf den Export von Premium-Meeresfrüchten aus Marokko spezialisiert. Entdecken Sie unsere Mission, Werte und unser Engagement für nachhaltigen Fischhandel.",
+    "keywords": "Fischexport Marokko, marokkanische Meeresfrüchte, marokkanischer Fischexporteur, nachhaltige Fischerei, Exportunternehmen für Meeresfrüchte"
+  },
+  "products_seo_content": {
+    "title": "Unsere Produkte | Marokkanischer Meeresfrüchte-Exporteur - Mercaluz",
+    "description": "Entdecken Sie unser Sortiment an Premium-Fisch- und Meeresfrüchteprodukten, die aus Marokko exportiert werden. Mercaluz liefert Qualität, Nachhaltigkeit und Frische.",
+    "keywords": "marokkanische Meeresfrüchte, Fischexport Marokko, Exporteur für frischen Fisch, Meeresfrüchteunternehmen Marokko"
+  },
+  "category_seo": {
+    "title_template": "{name} | Mercaluz - Marokkanischer Meeresfrüchte-Exporteur",
+    "description_template": "Entdecken Sie hochwertige {name}, die aus Marokko exportiert werden. Mercaluz bietet erstklassige nachhaltige Meeresfrüchte.",
+    "keywords_template": "{name}, marokkanische Meeresfrüchte, Fischexport Marokko, nachhaltige Fischerei",
+    "default_name": "Meeresfrüchte-Kategorie"
+  },
+  "fish_seo_content": {
+    "title_template": "{name} | Exportiert aus Marokko von Mercaluz",
+    "description_template": "{name} ({scientific}) ist eines unserer hochwertigsten Meeresfrüchteprodukte, das nachhaltig aus Marokko exportiert wird.",
+    "keywords_template": "{name}, marokkanischer Fischexport, nachhaltige Meeresfrüchte, {name} Marokko"
+  }
+}

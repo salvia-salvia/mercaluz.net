@@ -48,8 +48,7 @@ export async function generateMetadata({ params }: Props) {
 
       images: [
         {
-          url: `https://mercaluz.net${fishItem.image}`,
-
+          url: `https://mercaluz.net/img/fish/${fishItem.image}`,
           alt: name,
         },
       ],
@@ -62,7 +61,7 @@ export async function generateMetadata({ params }: Props) {
 
       description: t("description_template", { name, scientific }),
 
-      images: [`https://mercaluz.net${fishItem.image}`],
+      images: [`https://mercaluz.net/img/fish/${fishItem.image}`],
     },
   };
 }

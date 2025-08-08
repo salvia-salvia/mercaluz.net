@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations("category_seo");
   const categoryData = fishCategories.find((c) => c.id === category);
   const name = categoryData?.name[locale] || t("default_name");
-  const image = categoryData?.image || "https://mercaluz.net/img/mercaluz.png";
+  const image = categoryData?.image || "https://mercaluz.net/rounded_logo.svg";
   const url = `https://mercaluz.net/${locale}/category/${category}`;
 
   const title = t("title_template", { name });

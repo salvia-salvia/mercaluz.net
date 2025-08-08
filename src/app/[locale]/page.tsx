@@ -10,7 +10,6 @@ import { useTranslations } from "next-intl";
 
 export default function Home() {
   const t = useTranslations("hero");
-
   return (
     <>
       <div className="relative  font-open-sans  flex justify-center w-full min-h-screen overflow-hidden">

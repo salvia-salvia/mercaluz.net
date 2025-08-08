@@ -77,7 +77,7 @@ export default function Header({
             );
           })}
         </nav>
-        <div className=" mr-28 w-[100px] lg:w-[200px] lg:mr-42 ">
+        <div className="w-[100px] lg:w-[200px]  lg:mr-42 ">
           <Link href={`/${locale}`}>
             <Image
               alt="logo"
@@ -90,20 +90,19 @@ export default function Header({
           </Link>
         </div>
 
-        <div
-          className={`p-1 ${
-            scrolled ? "bg-gray-100" : " bg-transparent"
-          }   block md:hidden`}
-        >
-          {" "}
-          <MenuIcon
-            onClick={() => setShowMobileNavbar(true)}
-            className="w-[30px] h-[30px] cursor-pointer"
-          />
-        </div>
-
-        <div className="hidden md:flex">
+        <div className="flex items-center gap-5">
           <LanguageSelector />
+          <div
+            className={`p-1 ${
+              scrolled ? "bg-gray-100" : " bg-transparent"
+            }   block md:hidden`}
+          >
+            {" "}
+            <MenuIcon
+              onClick={() => setShowMobileNavbar(true)}
+              className="w-[30px] h-[30px] cursor-pointer"
+            />
+          </div>
         </div>
       </div>
     </header>

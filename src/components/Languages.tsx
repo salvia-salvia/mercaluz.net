@@ -4,10 +4,14 @@ import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
-const languages = [
+export const languages = [
   { code: "en", name: "English", flag: "/icons/en.svg" },
   { code: "fr", name: "Français", flag: "/icons/fr.svg" },
   { code: "es", name: "Español", flag: "/icons/es.svg" },
+  { code: "de", name: "Deutsch", flag: "/icons/de.svg" },
+  { code: "it", name: "Italiano", flag: "/icons/it.svg" },
+  { code: "pt", name: "Português", flag: "/icons/pt.svg" },
+  { code: "ru", name: "Русский", flag: "/icons/ru.svg" },
 ];
 
 export default function LanguageSelector() {
@@ -19,11 +23,10 @@ export default function LanguageSelector() {
 
   const changeLanguage = (newLocale: string) => {
     const segments = pathname.split("/");
-    segments[1] = newLocale; // change the locale segment
+    segments[1] = newLocale;
     router.push(segments.join("/"));
   };
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (
@@ -47,7 +50,7 @@ export default function LanguageSelector() {
     <div className={`relative`} ref={dropdownRef}>
       {/* Button */}
       <button
-        className="flex items-center justify-between cursor-pointer gap-2 rounded-lg w-28 py-3"
+        className="flex  items-center justify-between cursor-pointer gap-2 rounded-lg md:w-28 text-sm md:text-base py-3"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center gap-3">
