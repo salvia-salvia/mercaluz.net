@@ -3,7 +3,6 @@ import { X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
-import LanguageSelector from "./Languages";
 import { usePathname } from "next/navigation";
 
 export default function MobileNavbar({
