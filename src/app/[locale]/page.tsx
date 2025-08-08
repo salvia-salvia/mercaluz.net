@@ -22,7 +22,8 @@ export default function Home() {
           loop
           playsInline
         >
-          <source src="/vd.webm" type="video/mp4" />
+          <source src="/hero_vd.webm" type="video/webm" />
+          <source src="/hero_vd.mp4" type="video/mp4" />
         </video>
 
         {/* Text Content */}
