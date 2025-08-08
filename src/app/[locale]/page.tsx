@@ -22,7 +22,7 @@ export default function Home() {
           loop
           playsInline
         >
-          <source src="/vd.mp4" type="video/mp4" />
+          <source src="/vd.webm" type="video/mp4" />
         </video>
 
         {/* Text Content */}
