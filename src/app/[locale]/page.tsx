@@ -21,11 +21,10 @@ export default function Home() {
           muted
           loop
           playsInline
+          poster="/img/posterHeroVd.png"
         >
-          <source src="/hero_vd.webm" type="video/webm" />
           <source src="/hero_vd.mp4" type="video/mp4" />
         </video>
-
         {/* Text Content */}
         <div className="flex bg animate__animated  animate__fadeInLeft  w-full  mx-auto   md:w-[90%] 2xl:w-[70%] flex-col text-white px-2 sm:pl-20 md:px-0 items-center lg:items-start justify-center">
           <span className="block text-xl md:text-3xl lg:text-4xl   font-light">
