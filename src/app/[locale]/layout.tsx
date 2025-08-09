@@ -2,6 +2,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { metadataByLocale } from "@/constants";
+import CookiesConsents from "@/components/sittings/CookiesConsents";
 
 export const generateMetadata = async ({
   params,
@@ -23,5 +24,9 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-  return <NextIntlClientProvider>{children}</NextIntlClientProvider>;
+  return (
+    <NextIntlClientProvider>
+      {children} <CookiesConsents />
+    </NextIntlClientProvider>
+  );
 }

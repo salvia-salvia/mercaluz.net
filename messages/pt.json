@@ -5,6 +5,13 @@
     "viewProductscategory": "Ver produtos na categoria",
     "viewProduct": "Ver produto"
   },
+
+  "cookies_popup": {
+    "text": "Nós usamos cookies para garantir que lhe damos a melhor experiência no nosso site.",
+    "accept_btn": "Aceitar todos",
+    "decline_btn": "Recusar todos",
+    "link": "Ler políticas de cookies"
+  },
   "navbar": {
     "main": "Início",
     "about": "Sobre nós",
