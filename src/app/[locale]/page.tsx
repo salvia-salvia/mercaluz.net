@@ -6,10 +6,11 @@ import Link from "next/link";
 import "animate.css";
 import ContactContent from "@/components/ContactContent";
 import Footer from "@/components/Footer";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Home() {
   const t = useTranslations("hero");
+  const locale = useLocale();
   return (
     <>
       <div className="relative  font-open-sans  flex justify-center w-full min-h-screen overflow-hidden">
@@ -40,7 +41,7 @@ export default function Home() {
         </div>
 
         <Link
-          href="#about"
+          href={`/${locale}#about`}
           className="flex justify-center items-center absolute bottom-10 md:bottom-12"
         >
           <div className="w-12 h-12 rounded-full border-2 border-gray-300 flex items-center justify-center bg-white/10 backdrop-blur-sm">

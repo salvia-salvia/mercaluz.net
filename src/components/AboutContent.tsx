@@ -1,9 +1,10 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutContent() {
   const t = useTranslations("smallAbout");
+  const locale = useLocale();
   return (
     <section
       id="about"
@@ -29,7 +30,7 @@ export default function AboutContent() {
           <br />
           {t("part3")}
         </p>
-        <Link href={`/about`}>
+        <Link href={`/${locale}/about`}>
           <button className="relative mt-8 inline-block cursor-pointer px-6 py-2 border border-[#34699a] text-[#34699a] font-medium overflow-hidden group">
             <span className="absolute left-0 top-1/2 w-full h-0 bg-[#34699a] z-0 transition-all duration-300 ease-out group-hover:h-full transform -translate-y-1/2"></span>
             <span className="relative z-10 group-hover:text-white transition-colors duration-300">
