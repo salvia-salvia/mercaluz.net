@@ -17,9 +17,9 @@ export default function CategoriesContent() {
   return (
     <div className="w-full min-h-screen font-open-sans flex flex-col items-center">
       <div className="w-full max-w-7xl  pb-20 pl-3 mx-auto">
-        <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-2">
+        <h1 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-2">
           {t("title")}
-        </h2>
+        </h1>
         <p className="text-gray-800 text-sm md:text-lg leading-relaxed ">
           {t("subTitle")}
         </p>
@@ -42,7 +42,7 @@ export default function CategoriesContent() {
                   src={cat.image}
                   width={300}
                   height={300}
-                  alt={cat.name[locale] || "fish"}
+                  alt={cat.name[locale] || "Fish category image"}
                 />
                 <h3 className=" text-xl lg:text-3xl  font-semibold tracking-widest">
                   {cat.name[locale]}

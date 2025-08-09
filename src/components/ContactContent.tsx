@@ -54,7 +54,8 @@ export default function ContactContent() {
                 src={"/icons/linkedin.svg"}
                 width={25}
                 height={25}
-                alt="linkedin"
+                alt="LinkedIn profile"
+                aria-label="LinkedIn profile"
               />
             </Link>
             <Link href={`#`}>
@@ -62,7 +63,8 @@ export default function ContactContent() {
                 src={"/icons/facebook.svg"}
                 width={25}
                 height={25}
-                alt="facebook"
+                alt="Facebook profile"
+                aria-label="Facebook profile"
               />
             </Link>
           </div>

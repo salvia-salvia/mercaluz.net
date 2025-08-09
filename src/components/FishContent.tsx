@@ -128,7 +128,7 @@ export default function FishContent({
               />
               <input
                 placeholder={`company *`}
-                type="email"
+                type="text"
                 name="email"
                 className="border-b-2 focus:outline-none w-full py-3 focus:border-[#34699a] placeholder:font-semibold placeholder:text-black  placeholder:uppercase focus:placeholder:text-white"
                 required

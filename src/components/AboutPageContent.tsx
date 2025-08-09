@@ -35,9 +35,9 @@ export default function AboutPageContent() {
         </section>
 
         <section className="flex flex-col  bg-[url('/img/bgAbout2.png')] bg-cover bg-center  justify-center w-full min-h-screen mx-auto">
-          <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-16">
+          <h1 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-16">
             {t("whyWeAreBetter.title")}
-          </h2>
+          </h1>
           <main className="flex flex-wrap xl:flex-nowrap justify-center gap-4 2xl:gap-22">
             <div className="max-w-sm flex items-end pb-6">
               <p className="text-base 2xl:text-xl leading-relaxed text-gray-600">
@@ -46,9 +46,9 @@ export default function AboutPageContent() {
             </div>
             <div className="w-[400px] h-[600px]   bg-[url('/img/doctor.jpg')] bg-cover bg-center"></div>
             <div className="max-w-lg">
-              <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
+              <h1 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
                 {t("whyWeAreBetter.subTitle")}
-              </h2>
+              </h1>
               <ul className="text-base 2xl:text-xl leading-relaxed text-gray-600 flex flex-col gap-6">
                 <li>{t("whyWeAreBetter.text2.part1")}</li>
                 <li>{t("whyWeAreBetter.text2.part2")}</li>
@@ -59,9 +59,9 @@ export default function AboutPageContent() {
         </section>
 
         <section className="flex flex-col justify-center w-full min-h-screen mx-auto mt-[120px]">
-          <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
+          <h1 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
             {t("services.title")}
-          </h2>
+          </h1>
           <main className="flex items-center flex-wrap lg:flex-nowrap justify-around">
             <ul className="max-w-xl text-base 2xl:text-xl leading-relaxed text-gray-600 lg:h-[500px] py-6 lg:py-0 flex flex-col gap-8">
               <li>{t("services.part1")}</li>

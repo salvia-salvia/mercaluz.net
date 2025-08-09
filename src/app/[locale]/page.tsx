@@ -41,6 +41,7 @@ export default function Home() {
         </div>
 
         <Link
+          aria-label="Go to About section"
           href={`/${locale}#about`}
           className="flex justify-center items-center absolute bottom-10 md:bottom-12"
         >

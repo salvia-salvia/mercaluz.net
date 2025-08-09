@@ -6,9 +6,9 @@ export default function ReasonContent() {
   const reasons = [{ id: "01" }, { id: "02" }, { id: "03" }];
   return (
     <div className="max-w-[1500px] mx-auto font-open-sans md:pl-7 px-8">
-      <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6  lg:mb-12  text-gray-800">
+      <h1 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6  lg:mb-12  text-gray-800">
         {t("title")}
-      </h2>
+      </h1>
       <div className="flex  gap-5 ">
         <ul className="flex flex-col gap-16 max-w-xl mt-10 text-black md:text-xl leading-relaxed">
           {reasons.map(({ id }) => (
@@ -27,7 +27,7 @@ export default function ReasonContent() {
           <Image
             className="w-[700px] h-[400px] z-[-1]"
             src={"/img/reasonImg.png"}
-            alt=""
+            alt="Illustration representing the reasons why our company is the best choice"
             width={800}
             height={600}
           />
