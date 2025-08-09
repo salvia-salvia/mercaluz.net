@@ -75,7 +75,7 @@ export default function AboutPageContent() {
         <section className="flex flex-col justify-center w-full min-h-screen mx-auto">
           <main className="flex items-center flex-wrap-reverse justify-around">
             {" "}
-            <div className="w-[400px] xl:w-[600px] h-[500px] xl:h-[600px] bg-[url('/img/aboutPrice.png')] opacity-60 bg-cover bg-center"></div>
+            <div className="w-[400px] xl:w-[600px] h-[500px] xl:h-[600px] bg-[url('/img/aboutPrice.png')] bg-cover bg-center"></div>
             <ul className="max-w-lg lg:text-xl  lg:h-[600px] py-6 lg:py-0 flex flex-col gap-10">
               <li>
                 <h2 className="text-xl max-w-3xl  font-semibold tracking-widest md:leading-20 sm:text-3xl 2xl:text-5xl  mb-6">
