@@ -65,13 +65,17 @@ export default function Header({
               <Link
                 key={i}
                 href={fullPath}
-                className={`relative capitalize group ${!scrolled ?"text-white":""} ${
-                  isActive ? "font-extrabold text-xl text-[#34699a]" : ""
-                }`}
+                title={t(route.name)}
+                aria-label={t(route.name)}
+                className={`relative capitalize group ${
+                  !scrolled ? "text-white" : ""
+                } ${isActive ? "font-extrabold text-xl text-[#34699a]" : ""}`}
               >
                 {t(route.name)}
                 <span
-                  className={`absolute left-1/2 bottom-0 w-0 h-[3px] ${!scrolled ?"bg-white":"bg-[#34699a]"} transition-all duration-300 group-hover:left-0 group-hover:w-full`}
+                  className={`absolute left-1/2 bottom-0 w-0 h-[3px] ${
+                    !scrolled ? "bg-white" : "bg-[#34699a]"
+                  } transition-all duration-300 group-hover:left-0 group-hover:w-full`}
                 ></span>
               </Link>
             );
